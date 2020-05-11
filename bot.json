@@ -1,0 +1,19 @@
+{
+    "appconfig": {
+        "headless": false,
+        "isGroupReply":false,
+        "webhook":"http://127.0.0.1:3001/api/incoming-webhook/"
+    },
+    "bot": [{
+            "contains": [],
+            "exact": ["#health"],
+            "response": "{good}"
+        }
+    ],
+    "blocked": [],
+    "noMatch":null,
+    "smartreply":{
+        "suggestions":["Maaf tidak ada info 🙏."],
+        "clicktosend":true
+    }
+}
